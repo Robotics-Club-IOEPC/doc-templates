@@ -232,7 +232,7 @@
   title: [See you soon!],
   project-url: "https://github.com/Robotics-Club-IOEPC/doc-templates",
   qr-caption: [#text(font: "FantasqueSansM Nerd Font Mono",[Find the templates for documeting your bootcamp journey here])],
-  contact-appeal: [],
+  contact-appeal: [This presentation is made with `typst`, you can find the source for it in the github repo linked from this QR.],
   email: "spandan@scientiac.space",
   mastodon: "@iac@polymaths.social",
   website: "scientiac.space"
