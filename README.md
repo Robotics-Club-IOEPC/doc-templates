@@ -23,4 +23,4 @@ For anyone familiar with git you can clone this repo and work accordingly but if
 
 > If you feel that this is worthless and you want to do this in Google or Microsoft docs, you may recreate the cover page and template formatting and export to pdf before submitting.
 
-> But I highly recommend using one of the above two.
+> But, I highly recommend using one of the above two typesetting software since it will come handy in your everyday engineering days like submitting **lab reports** or making **reports** and **proposals**.
