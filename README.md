@@ -16,7 +16,8 @@ And if you want to set these things up locally to use without and internet conne
 - These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references.
 - You can extend anything to this template and it will be accepted. (If your instructor likes what you have tried to do, it might even be merged to the main template.)
 - Latex is oldschool, huge, slow and heavy but it is used everywhere in the industry; from making books to publishing white papers. 
-- Typst is new, small, fast, and easy and used by many people since it is blazingly fast but it isn't adopted by the larger industry yet.
+- Typst is new, small, fast, easy and used by many people since it is blazingly fast but, it isn't adopted by the larger industry yet.
 
 > If you feel that this is worthless and you want to do this in Google or Microsoft docs, you may recreate the cover page and template formatting and export to pdf before submitting.
+
 > But I highly recommend using one of the above two.
