@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage{template}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{soul}
+
+% Set Libertinus Serif font if using XeLaTeX/LuaLaTeX
+\usepackage{iftex}
+\ifXeTeX
+    \setmainfont{Libertinus Serif}
+\else\ifLuaTeX
+    \setmainfont{Libertinus Serif}
+\fi
+
+% Cover page information
+\coverTitle{Day 1: Introduction to Robots and Robotics \textless Title\textgreater}
+\coverAuthor{Issac Asimov \textless Your Name\textgreater}
+\coverRollno{PUR031ABC041 \textless Your Roll\textgreater}
+\coverTo{Albert Einstein \textless Instructor's Name\textgreater}
+\coverLogo{robo.png}
+\coverDate{3014-03-14 \textless ISO Date\textgreater}
+
+% Code listing setup
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+
+% Generate cover page
+\makecover
+
+% Setup main document formatting
+\setupmain
+
+\section{Heading}
+\subsection{Second Heading}
+
+This is regular text.
+
+\begin{lstlisting}[language=C++]
+# This is a code block.
+print("Hello")
+\end{lstlisting}
+
+\subsubsection{Third Heading}
+
+\begin{itemize}
+    \item This is an unnumbered list.
+    \item This is also an unnumbered list.
+\end{itemize}
+
+\begin{enumerate}
+    \item This is a numbered list.
+    \item This is also a numbered list.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{logo.png}
+    \caption{Logo of Tribhuvan University.}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        One & Plan \\
+        \hline
+        Two & Draft \\
+        \hline
+        Three & Document \\
+        \hline
+    \end{tabular}
+\end{table}
+
+You can do almost anything with this typesetting system.
+
+\textbf{Bold}
+\textit{Italics}
+\underline{Underline}
+\sout{Strike}
+
+\begin{center}
+    \underline{\sout{\textbf{\textit{Everything all at once}}}} Center Aligned
+\end{center}
+
+\end{document}

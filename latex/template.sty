@@ -1,0 +1,136 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{template}[2024/01/01 Custom Cover Template]
+
+% Required packages
+\RequirePackage{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{array}
+\RequirePackage{amsmath}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{textcase}
+
+% Font setup - this needs to happen early
+\RequirePackage{iftex}
+\ifXeTeX
+    \RequirePackage{fontspec}
+\else\ifLuaTeX
+    \RequirePackage{fontspec}
+\else
+    % For pdfLaTeX, use libertinus package
+    \RequirePackage{libertinus}
+\fi\fi
+
+% Page setup
+\geometry{
+    a4paper,
+    top=3cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm
+}
+
+% Variables for cover page
+\newcommand{\@coverTitle}{}
+\newcommand{\@coverAuthor}{}
+\newcommand{\@coverRollno}{}
+\newcommand{\@coverTo}{}
+\newcommand{\@coverDate}{}
+\newcommand{\@coverLogo}{}
+
+% Commands to set cover page variables
+\newcommand{\coverTitle}[1]{\renewcommand{\@coverTitle}{#1}}
+\newcommand{\coverAuthor}[1]{\renewcommand{\@coverAuthor}{#1}}
+\newcommand{\coverRollno}[1]{\renewcommand{\@coverRollno}{#1}}
+\newcommand{\coverTo}[1]{\renewcommand{\@coverTo}{#1}}
+\newcommand{\coverDate}[1]{\renewcommand{\@coverDate}{#1}}
+\newcommand{\coverLogo}[1]{\renewcommand{\@coverLogo}{#1}}
+
+% Custom formatting commands that mimic section/subsection appearance
+\newcommand{\bigtitle}[1]{%
+    {\Large\bfseries #1}%
+}
+
+\newcommand{\medtitle}[1]{%
+    {\large\bfseries #1}%
+}
+
+% Cover page command
+\newcommand{\makecover}{
+    \thispagestyle{empty}
+    % Increase line spacing and paragraph spacing for cover page
+    \linespread{1}
+    \setlength{\parskip}{1.2em}
+    \begin{center}
+        \vfill
+        {\centering\medtitle{\textsc{Some Notes}}\par}
+        {\centering\medtitle{\textsc{On}}\par}
+        \vspace{1cm}
+        
+        {\centering\bigtitle{\@coverTitle}\par}
+        \vspace{0.5cm}
+        
+        {\centering\medtitle{\textsc{By}}\par}
+        {\centering\medtitle{\@coverAuthor}\\}
+        \textbf{\@coverRollno}\\[0.5cm]
+        
+        {\centering\medtitle{\textsc{To}}\par}
+        {\centering\medtitle{\@coverTo}\par}
+        \vspace{1cm}
+        
+        \ifx\@coverLogo\empty
+            \vspace{2cm}
+        \else
+            \includegraphics[width=0.25\textwidth]{\@coverLogo}\\[1cm]
+        \fi
+        
+        {\centering\bigtitle{\textsc{Tribhuwan University}}\par}
+        {\centering\medtitle{\textsc{Institute of Engineering}}\par}
+        \vspace{1cm}
+        
+        {\centering\bigtitle{\textsc{Robotics Club}}\par}
+        {\centering\medtitle{\textsc{Purwanchal Campus}}\par}
+        {\centering\medtitle{\textsc{Dharan, Nepal}}\par}
+        \vspace{1cm}
+        
+        \@coverDate
+        \vfill
+    \end{center}
+    \newpage
+}
+
+% Setup for main document after cover
+\newcommand{\setupmain}{
+    % Page numbering
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    
+    % Page style
+    \pagestyle{plain}
+    
+    % Margins for main content
+    \newgeometry{
+        top=3cm,
+        bottom=2cm,
+        left=3cm,
+        right=2cm
+    }
+    
+    % Section numbering (these still work with standard LaTeX sectioning)
+    \setcounter{secnumdepth}{3}
+    \renewcommand{\thesection}{\arabic{section}}
+    \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+    \renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+    
+    % Font size
+    \normalsize
+    
+    % Paragraph justification and spacing
+    \raggedright
+    \setlength{\parindent}{0em}
+    
+    % Decrease paragraph spacing
+    \setlength{\parskip}{0em}
+}
+
+\endinput
