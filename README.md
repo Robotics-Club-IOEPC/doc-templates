@@ -16,7 +16,7 @@ And if you want to set these things up locally to use without an internet connec
 For anyone familiar with git you can clone this repo and work accordingly but if you aren't you can [click here](https://github.com/Robotics-Club-IOEPC/doc-templates/archive/refs/heads/main.zip), extract the zip file and then import the respective folder on your respetive typesetting software of choice.
 
 ## Note
-- These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references.
+- These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references. (Which, itn't set up in this template.)
 - You can extend anything to this template and it will be accepted. (If your instructor likes what you have tried to do, it might even be merged to the main template.)
 - Latex is oldschool, huge, slow and heavy but it is used everywhere in the industry; from making books to publishing white papers. 
 - Typst is new, small, fast, easy and used by many people since it is blazingly fast but, it isn't adopted by the larger industry yet.
