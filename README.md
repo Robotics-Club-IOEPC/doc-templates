@@ -1,6 +1,11 @@
 # doc-templates
 Templates for Documentaiton of Robotics Bootcamp
 
+> [!IMPORTANT]  
+>  Before submitting your pdf rename it in the following format:
+> `<first-name>-<last-name>-<rollno>.pdf` for eg: `albert-einstein-pur031sci415.pdf`.
+> Every letter should be small letter with no spaces in the filename.
+
 ## Setting Up
 For ease of use, you can import these templates on [typst.app](https://typst.app) for typst.  
 And, for latex you can make use of [www.overleaf.com](https://www.overleaf.com).
