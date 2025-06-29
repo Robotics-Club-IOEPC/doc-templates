@@ -21,10 +21,10 @@ _When creating the projects on the respective apps, choose a blank project with 
 How should the apps look like for me to know that everything is properly set up?
 
 ### Typst
-![Typst][./images/typstapp.png]
+![Typst](./images/typstapp.png)
 
 ### Overleaf (Latex)
-![Latex][./images/overleaf.png]
+![Latex](./images/overleaf.png)
 
 ## Note
 - These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references. (Which, itn't set up in this template.)
