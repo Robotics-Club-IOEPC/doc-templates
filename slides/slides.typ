@@ -13,8 +13,8 @@
   speaker: [Spandan Guragain (scientiac)],
   conference: [Technomorph: Introduction to Robots and Robotics],
   speaker-website: "scientiac.space",
-  slides-url: "URL coming soon",
-  qr-caption: [Get these slides],
+  slides-url: "https://github.com/Robotics-Club-IOEPC/doc-templates/blob/main/slides/slides.pdf",
+  qr-caption: [#text(font: "FantasqueSansM Nerd Font Mono",[Get this slide and its source code])],
   logo: [#image("logo.png", width: 50%)],
 )
 
@@ -75,16 +75,16 @@
     gutter: 2em,
     [
       #titled-block(title: [GitHub])[
-        - Most popular
+        - Most popular for individuals
         - Great for open source
         - Excellent CI/CD
-        - Microsoft owned
+        - Largest git hosting platform
       ]
     ],
     [
       #titled-block(title: [GitLab])[
-        - Self-hosted option
-        - Built-in DevOps
+        - If you are feeling extra adventurous
+        - Most FOSS communities use this
         - Free private repos
         - Enterprise features
       ]
@@ -93,7 +93,7 @@
 
   #v(1em)
   
-  *Others:* Bitbucket, Codeberg, SourceForge
+  *Others:* Codeberg, SourceForge
 ]
 
 #slide[
@@ -103,7 +103,6 @@
     - *Interactive:* learngitbranching.js.org
     - *Official:* git-scm.com/doc
     - *GitHub:* GitHub Skills courses
-    - *Books:* Pro Git (free online)
     - *Practice:* Create your first repository!
   ]
 
@@ -216,11 +215,12 @@
   = Getting Started
 
   #titled-block(title: [Action Items])[
-    1. Create a *GitHub account*
-    2. Install *Git* on your machine
-    3. Make your *first repository*
-    4. Write a *README.md*
-    5. Try *Typst* or *LaTeX* for notes
+    + Create a *GitHub account*
+    + Install *Git* on your machine
+    + Make your *first repository*
+    + Write a *README.md*
+
+    - Try *Typst* or *LaTeX* for notes
   ]
 
   #v(1em)
@@ -230,8 +230,8 @@
 
 #friendly.last-slide(
   title: [See you soon!],
-  project-url: "Find the documentation templates here.",
-  qr-caption: [Find the documentation templates here.],
+  project-url: "https://github.com/Robotics-Club-IOEPC/doc-templates",
+  qr-caption: [#text(font: "FantasqueSansM Nerd Font Mono",[Find the templates for documeting your bootcamp journey here])],
   contact-appeal: [],
   email: "spandan@scientiac.space",
   mastodon: "@iac@polymaths.social",
