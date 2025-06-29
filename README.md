@@ -12,6 +12,9 @@ And if you want to set these things up locally to use without and internet conne
 
 > You can even set it up to use these with your IDE of choice with a little bit of research.
 
+## How do I use it?
+For anyone familiar with git you can clone this repo and work accordingly but if you aren't you can [click here](https://github.com/Robotics-Club-IOEPC/doc-templates/archive/refs/heads/main.zip), extract the zip file and then import the respective folder on your respetive typesetting software of choice.
+
 ## Note
 - These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references.
 - You can extend anything to this template and it will be accepted. (If your instructor likes what you have tried to do, it might even be merged to the main template.)
