@@ -2,7 +2,7 @@
 Templates for Documentaiton of Robotics Bootcamp
 
 > [!IMPORTANT]  
->  Before submitting your pdf rename it in the following format:
+>  Before submitting your pdf, rename it in the following format:
 > `<first-name>-<last-name>-<rollno>.pdf` for eg: `albert-einstein-pur031sci415.pdf`.
 > Every letter should be small letter with no spaces in the filename.
 
