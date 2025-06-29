@@ -5,7 +5,7 @@ Templates for Documentaiton of Robotics Bootcamp
 For ease of use, you can import these templates on [typst.app](https://typst.app) for typst.  
 And, for latex you can make use of [www.overleaf.com](https://www.overleaf.com).
 
-And if you want to set these things up locally to use without and internet connection you can find the Documentation on how to do that here:
+And if you want to set these things up locally to use without an internet connection you can find the Documentation on how to do that here:
 
 [typst/typst](https://github.com/typst/typst)  
 [tug.org/texlive](https://tug.org/texlive)
