@@ -15,6 +15,17 @@ And if you want to set these things up locally to use without an internet connec
 ## How do I use it?
 For anyone familiar with git you can clone this repo and work accordingly but if you aren't you can [click here](https://github.com/Robotics-Club-IOEPC/doc-templates/archive/refs/heads/main.zip), extract the zip file and then import the respective folder on your respetive typesetting software of choice.
 
+_When creating the projects on the respective apps, choose a blank project with nothing on it and import the files._
+
+## How should it look like?
+How should the apps look like for me to know that everything is properly set up?
+
+### Typst
+![Typst][./images/typstapp.png]
+
+### Overleaf (Latex)
+![Latex][./images/overleaf.png]
+
 ## Note
 - These templates are very barebones, you'd utilize bibtex for reference and bibliography when needed on latex and similar equivalent to typst for better formatting of references. (Which, itn't set up in this template.)
 - You can extend anything to this template and it will be accepted. (If your instructor likes what you have tried to do, it might even be merged to the main template.)
