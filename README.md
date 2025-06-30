@@ -2,8 +2,10 @@
 Templates for Documentaiton of Robotics Bootcamp
 
 > [!IMPORTANT]  
->  Before submitting your pdf, rename it in the following format:
-> `<first-name>-<last-name>-<rollno>.pdf` for eg: `albert-einstein-pur031sci415.pdf`.
+> Here is a step by step guide on how to use the [Documentation Software](./instructions/documentation/documentation-tutorial.pdf) and [Virsion Control Software](./instructions/github-tutorial/github-tutorial.pdf).
+>
+>  Before uploading your PDF, rename it in the following format:
+> `<first-name>-<last-name>-<rollno>.pdf` for e.g. `albert-einstein-pur031sci415.pdf`.
 > Every letter should be small letter with no spaces in the filename.
 
 ## Setting Up
