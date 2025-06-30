@@ -1,6 +1,6 @@
 #set page(margin: 1cm)
 
-= A tutorial onion to use GitHub Desktop
+= A tutorial on how to use GitHub Desktop
 \
 Note: This is not the `optimal` way of using git ot github, but it simplifies the process a lot. In an ideal condition you will use your IDE instead of this App which may be VScode or any other Development Envioronment you use.
 \
