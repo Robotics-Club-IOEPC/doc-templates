@@ -6,13 +6,13 @@ Templates for Documentaiton of Robotics Bootcamp
 >
 >  Before uploading your PDF, rename it in the following format:
 > `<first-name>-<last-name>-<rollno>-<day-x>.pdf` for e.g. `albert-einstein-pur031sci415-day-1.pdf`.
-> Every letter should be small letter with no spaces in the filename.
-> You will upload the files to your GitHub repo with the documentation of each day.
-> Your github repo should look something like this:
+> Every letter should be small letter with no spaces in the filename.  
+> You will upload the files to your GitHub repo with the documentation of each day.  
+> Your github repo should look something like this:  
 > ![example github repo](./images/example-repo.png)
 
 > [!CAUTION]
-> You can visit the repo on [scientiac/technomorph](https://github.com/scientiac/technomorph)
+> You can visit the repo on [scientiac/technomorph](https://github.com/scientiac/technomorph).  
 > It is only representational. It only shows how you can structure your repo.
 
 ## Setting Up
