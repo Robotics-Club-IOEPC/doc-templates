@@ -2,7 +2,7 @@
 Templates for Documentaiton of Robotics Bootcamp
 
 > [!IMPORTANT]  
-> Here is a step by step guide on how to use the [Documentation Software](./instructions/documentation/documentation-tutorial.pdf) and [Virsion Control Software](./instructions/github-tutorial/github-tutorial.pdf).
+> Here is a step by step guide on how to use the [Documentation Software](./instructions/documentation/documentation-tutorial.pdf) and [Virsion Control Software](./instructions/github-tutorial/github-tutorial.pdf). (If this doesn't render on github, you may figure out how to download and read it.)
 >
 >  Before uploading your PDF, rename it in the following format:
 > `<first-name>-<last-name>-<rollno>-<day-x>.pdf` for e.g. `albert-einstein-pur031sci415-day-1.pdf`.
@@ -14,6 +14,9 @@ Templates for Documentaiton of Robotics Bootcamp
 > [!CAUTION]
 > You can visit the repo on [scientiac/technomorph](https://github.com/scientiac/technomorph).  
 > It is only representational. It only shows how you can structure your repo.
+
+> [!IMPORTANT]
+> This is merely an example on how you can organize and document things. You may use the software of your choice and IDE/Word Processor/Typesetting of your choice and obtain similar outcome. The aim of giving you these assignments is to teach you the basics of a version control system and a typesetting system to structure, formulate, organize and remember the things you learn. It is by no means necessary to do exactly as stated here if you can obtain the same result in your own way.
 
 ## Setting Up
 For ease of use, you can import these templates on [typst.app](https://typst.app) for `typst`.  
@@ -28,7 +31,7 @@ And if you want to set these things up locally to use without an internet connec
 > You can even set it up to use these with your IDE of choice with a little bit of research.
 
 ## How do I use it?
-Fubor anyone familiar with `git` you can clone this repo and work accordingly but if you aren't you can [click here](https://github.com/Robotics-Club-IOEPC/doc-templates/archive/refs/heads/main.zip), extract the zip file and then import the respective folder on your respetive typesetting software of choice.
+For anyone familiar with `git` you can clone this repo and work accordingly but if you aren't you can [click here](https://github.com/Robotics-Club-IOEPC/doc-templates/archive/refs/heads/main.zip), extract the zip file and then import the respective folder on your respetive typesetting software of choice.
 
 > [!TIP]
 > _When creating the projects on the respective apps, choose a blank project with nothing on it and import the files._
